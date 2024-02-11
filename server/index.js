@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 import postRoutes from './routes/posts.js';
 
-dotenv.config();
+dotenv.config({path: "./vars/.env"});
 
 const app = express();
 
